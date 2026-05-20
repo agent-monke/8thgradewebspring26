@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armaan | JS Demo</title>
+    <link rel="stylesheet" href="C:\Users\amotwani\OneDrive - Eastside Preparatory School\School Years\8th Grade\Web\Web Projects\js_demo\css\style.css">
+    <script type="text/javascript" src="js/script.js">
+      
+    </script>
+</head>
+<body>
+    <h1>Today we will learn about JavaScript.</h1>
+    <h2>How do we do onclick events?</h2>
+    <p>Click <a href="https://www.eastsideprep.org/" target="_blank" onclick="alert('Warning! You\'re navigating away from my website. Are you SUUUUUURE you want go go? You will be hacked.')">here</a> to navigate to my school website. </p>
+
+    <h2>We can also use JS to do math!</h2>
+    <p>What is 5+3?</p>
+    <button onclick="document.getElementById('add').innerHTML=5+3">Click me for the answer!</button>
+    <p id="add"></p>
+
+    <h2>Let's change text with JS</h2>
+    <button onclick="document.getElementById ('change text').innerHTMl='You did it!'">Click me to change the text below</button>
+    <p id="change-text">This text will change.</p>
+
+    <h2>How do we make a function with JS</h2>
+    <p>Let's use a function to add an image to our page.</p>
+    <button onclick="showImg()">click me for surprise</button>
+    <img id="surprise" src="" width="500">
+
+    <h2>How do we return user data?</h2>
+    <button onclick="askName()">Click me to enter your na,e</button>
+    <p id="ask-name"></p>
+
+    <h2>How do we ask other questions with JS</h2>
+    <button onclick="askQuestion()">Chick here for the question of the ages!</button>
+    <p id="ask-question"></p>
+    <script>
+        function showImg() {
+            var image = document.getElementById('surprise');
+            image.src = 'C:\Users\amotwani\OneDrive - Eastside Preparatory School\School Years\\8th Grade\Web\Web Projects\js_demo\images\black-guy-black-shocked.gif'
+
+        }
+        alert('Hackers are hacking your device as you read this.')
+        alert('If this is the FBI please stay so we can hack you.')
+        alert('JK this is how to learn JavaScript!')
+    </script>
+    
+</body>
+</html>

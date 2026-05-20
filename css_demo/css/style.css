@@ -1,0 +1,29 @@
+body {
+
+        background-color: aqua;
+        }
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.copy {
+    text-align: center;
+    color: darkgreen;
+    font-size: 25px;
+    background-color: blueviolet;
+}
+
+.container {
+    width: 975x;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 50px;
+    background-color: chartreuse;
+}

@@ -1,0 +1,25 @@
+.container {
+    width: 900px;
+    margin: 20px auto;
+    border: 5px solid black;
+    padding: 50px;
+    background-color: yellow;
+    text-align: center;
+}
+
+
+body {
+    background-color: #B38B6D;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: xx-large;
+}
+
+p {
+    text-align: left;
+    color: #4a3728;
+    font-size: x-large;
+}
